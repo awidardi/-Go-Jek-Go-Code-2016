@@ -1,3 +1,6 @@
+Hari pertama tanggal 4 September 2016
+Pemateri : Muhammad Muhlas Abror
+
 Software :
 -xampp
 -go lang
@@ -24,3 +27,23 @@ buka browser dan masuk 127.0.0.1:8080 (port nya 8080)
 
 Framework : bee go
 Link beego.me
+
+Nama framework : beego
+Cara install (LINK : beego.me)
+1. Pastikan git sudah terinstall, apabila sudah namun tidak bisa, coba cek di PATH apakah sudah ditambahkan env variabel untuk git
+2. Pastikan go lang sudah terinstall
+3. Buat variabel baru GOPATH pada environment variable dengan memasukkan direktori bin go-lang
+4. Install Beego ada pada cmd dengan mengetikkan
+	go get github.com/astaxie/beego
+5. Install Bee Dev tool ada pada cmd dengan mengetikkan
+	go get github.com/beego/bee
+6. Tambahkan %GOPATH%/bin pada PATH
+7. Ganti direktori ke folder src pada GOPATH
+	cd %GOPATH%/src
+8. Buat file baru bee
+	bee new hello
+9. Change direktori ke folder hello
+	cd hello
+10. Jalankan hello world
+	bee run hello
+11. Buka pada http://localhost:8080/
