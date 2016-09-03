@@ -1,0 +1,26 @@
+Software :
+-xampp
+-go lang
+-postman
+-text editor
+
+Syntax :
+go run nama_file.go			untuk run di cmd
+go build hello-world.go		untuk membuat file exe
+./hello-world
+
+go-lang cara membaca nya per baris
+
+assign variabel dengan := (seperti pascal)
+bedanya dengan '=' adalah kalau pakai ':=' kita var nya mengikut pada nilai yang di assign
+
+function dari go lang dapat return multiple value
+
+operator '+' untuk penambahan string
+operator ',' untuk menggabungkan var tipe data beda namun dipisahkan spasi
+
+buat file http.go dan run file tersebut
+buka browser dan masuk 127.0.0.1:8080 (port nya 8080)
+
+Framework : bee go
+Link beego.me
