@@ -1,0 +1,33 @@
+bee new : membuat folder
+bee run : jalankan bee application
+lebih fokus ke frontend
+buat bee api testapi
+
+buka testapi/routers/router.go
+
+func init adalah function yang pertama kali dijalankan
+
+kenapa not found?
+buka router nya, cek Namespace nya
+
+coba buka localhost:8080/v1/object
+cara lihatnya pakai JSON View
+
+Database :
+start apache & mysql
+buka localhost/phpmyadmin
+
+Hanya dasar mysql
+
+Models
+Buka http://beego.me/docs/mvc/model/overview.md
+Buka folder testapi (API nya yang anda buat)
+
+ORM : object relational mapping
+
+Buka main.go
+Notasi pada import
+'_' : tidak bisa diganggu/interuppted ketika dijalankan
+'.' : tidak boleh double
+Runmode "dev" : 
+swagger fungsinya dokumentasi
